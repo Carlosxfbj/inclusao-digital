@@ -40,64 +40,6 @@ inclusao-digital/
 
 ---
 
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-
-- Node.js instalado
-- VS Code (ou outro editor)
-- (Opcional) Extensão Live Server no VS Code
-- Terminal ou CMD
-
-### Passo a passo
-
-1. Clone ou baixe o repositório
-2. Acesse a pasta do projeto no terminal:
-
-```bash
-cd inclusao-digital
-```
-
-3. Instale as dependências:
-
-```bash
-npm install
-```
-
-4. Crie o banco de dados (se desejar usar os scripts SQL manualmente):
-
-```bash
-sqlite3 ./backend/db/database.sqlite < ./backend/scripts/create_tables.sql
-sqlite3 ./backend/db/database.sqlite < ./backend/scripts/seed_data.sql
-```
-
-5. Inicie o servidor:
-
-```bash
-node backend/server.js
-```
-
-6. Abra o arquivo `frontend/index.html` no navegador  
-   (Se tiver o Live Server, clique com o botão direito no arquivo e selecione "Open with Live Server").
-
----
-
-## ✍️ Funcionalidades
-
-- Cadastro de idosos com nome, nascimento, telefone, bairro e escolaridade.
-- Registro de oficinas com data, local e descrição.
-- Vinculação de idosos às oficinas via tabela de participação.
-- Interface amigável e responsiva.
-
----
-
-## 📦 Banco de Dados
-
-O banco é gerenciado com **SQLite**, sendo leve e ideal para ambientes acadêmicos ou protótipos.  
-Os dados são armazenados em `backend/db/database.sqlite`.
-
----
-
 ## 📌 Licença
 
 Este projeto é de uso educacional e pode ser reutilizado livremente com os devidos créditos.
@@ -106,6 +48,6 @@ Este projeto é de uso educacional e pode ser reutilizado livremente com os devi
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome Aqui]  
-Curso de [Seu Curso] – UFMS  
-Módulo de Projeto Integrador e Banco de Dados
+Desenvolvido por Carlos Xavier  
+Curso de Tecnologia da Informação – UFMS  
+Módulo 3 de Projeto Integrador II
